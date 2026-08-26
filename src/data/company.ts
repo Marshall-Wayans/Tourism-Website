@@ -12,7 +12,7 @@ export const company = {
   email: 'kizihesbon@gmail.com',
   responseTime: 'A travel designer replies within 24 hours.',
   socials: [
-    { label: 'Instagram', href: '#', handle: 'https://www.instagram.com/visit_tanzania_safari_treks?igsi=MWEwd3hpNTMwbTBqdw==' },
+    { label: 'Instagram', href: 'https://www.instagram.com/visit_tanzania_safari_treks?igsi=MWEwd3hpNTMwbTBqdw==', handle: 'https://www.instagram.com/visit_tanzania_safari_treks?igsi=MWEwd3hpNTMwbTBqdw==' },
     { label: 'Facebook', href: '#', handle: 'Page to be confirmed' },
     { label: 'YouTube', href: '#', handle: 'Channel to be confirmed' },
   ],
