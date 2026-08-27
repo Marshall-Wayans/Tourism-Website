@@ -134,6 +134,7 @@ export interface Guide {
   based: string
   languages: string
   placeholder: boolean
+  photo?: string
 }
 
 export interface EnquiryRecord {

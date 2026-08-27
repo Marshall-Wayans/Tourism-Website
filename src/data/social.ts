@@ -1,11 +1,10 @@
 import type { Testimonial, Guide, AppNotification } from '../types'
 
-/**
- * PLACEHOLDER CONTENT.
- * These entries describe the themes of feedback we expect to publish. They are
- * clearly flagged as placeholders in the UI and must be replaced with verified,
- * permissioned traveller reviews before launch. Never present them as real reviews.
- */
+import guide1Photo from '../assets/Tourism6.jpeg'
+import guide2Photo from '../assets/Tourism2.jpeg'
+import guide3Photo from '../assets/Tourism3.jpeg'
+import guide4Photo from '../assets/Tourism5.jpeg'
+
 export const testimonials: Testimonial[] = [
   {
     id: 't1',
@@ -85,7 +84,9 @@ export const guides: Guide[] = [
     based: 'Arusha',
     languages: 'Swahili, English',
     placeholder: true,
+    photo: guide1Photo,
   },
+
   {
     id: 'g2',
     name: '[Guide name to be confirmed]',
@@ -95,7 +96,9 @@ export const guides: Guide[] = [
     based: 'Moshi',
     languages: 'Swahili, English',
     placeholder: true,
+    photo: guide2Photo,
   },
+
   {
     id: 'g3',
     name: '[Guide name to be confirmed]',
@@ -105,7 +108,9 @@ export const guides: Guide[] = [
     based: 'Iringa',
     languages: 'Swahili, English',
     placeholder: true,
+    photo: guide3Photo,
   },
+
   {
     id: 'g4',
     name: '[Guide name to be confirmed]',
@@ -115,6 +120,7 @@ export const guides: Guide[] = [
     based: 'Stone Town',
     languages: 'Swahili, English',
     placeholder: true,
+    photo: guide4Photo,
   },
 ]
 
